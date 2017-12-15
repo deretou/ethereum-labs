@@ -88,6 +88,24 @@ In Chrome, go to [this link](https://chrome.google.com/webstore/detail/metamask/
 
 Go through installation, then select Ropsten network. We will be only testing.
 
+![alt_text](fig04.png)
+
+### STEP 10: Get some `ether`
+
+- Click on BUY
+- Request `ether` from Roptsten test network. (Give it to digest).
+
+### STEP 11: Using Metamask
+ 
+Metamask has an intuitive user interface
+
+- Create a second acount
+- Practice sending `ether` from one account to the other
+
+### STEP 12: Using Etherscan service
+
+
+
 
 
 
