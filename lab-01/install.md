@@ -93,7 +93,7 @@ Go through installation, then select Ropsten network. We will be only testing.
 ### STEP 10: Get some `ether`
 
 - Click on BUY
-- Request `ether` from Roptsten test network. (Give it to digest).
+- Request `ether` from Roptsten test network. (Give it time to digest).
 
 ### STEP 11: Using Metamask
  
