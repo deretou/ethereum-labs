@@ -25,6 +25,10 @@ Labs are only verified for Ubuntu, 64 bit, v. 16+
 
     geth --help
     
+You should get an output like below
+
+![alt_text](fig02.png)
+    
 ### STEP 4: Start ethereum in the developer mode
 
     geth --rpc --dev --rpcapi="db,eth,net,web3,personal,debug,miner" --rpccorsdomain "*"
@@ -48,6 +52,42 @@ Enable the HTTP-RPC server
 You will see an output like this
 
 ![alt_text](fig01.png)
+
+##### Warnings are OK.
+
+### STEP 5: Install node.js
+
+    sudo apt-get install nodejs
+
+### STEP 6: Start node.js
+
+    node
+    
+When later you want to stop node.js, type
+
+    .exit
+    
+Like so
+
+![alt_text](fig03.png)
+
+### STEP 7: Install node.js package manager
+
+    sudo apt-get install npm
+
+### STEP 8: Using `npm` install `web3`
+
+    npm install web3
+
+### STEP 9: Install `Metamask` Chrome plugin
+
+(Here, you will need the Desktop UI provided by the trainer)
+
+In Chrome, go to [this link](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en
+) or simply search for `Metamask`
+
+Go through installation, then select Ropsten network. We will be only testing.
+
 
 
 
