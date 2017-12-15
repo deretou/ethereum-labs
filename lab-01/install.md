@@ -47,7 +47,7 @@ Enable the HTTP-RPC server
 
 You will see an output like this
 
-![alt text]fig01.png
+![alt_text]fig01.png
 
 
 
