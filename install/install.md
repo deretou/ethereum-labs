@@ -69,7 +69,7 @@ When later you want to stop node.js, type
     
 Like so
 
-![alt_text](fig03.png)
+![alt_text](../images/install_fig03.png)
 
 ### STEP 7: Install node.js package manager
 
