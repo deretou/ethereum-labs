@@ -27,7 +27,7 @@ Labs are only verified for Ubuntu, 64 bit, v. 16+
     
 You should get an output like below
 
-![alt_text](fig02.png)
+![alt_text](../images/install_fig02.png)
     
 ### STEP 4: Start ethereum in the developer mode
 
@@ -51,7 +51,7 @@ Enable the HTTP-RPC server
 
 You will see an output like this
 
-![alt_text](fig01.png)
+![alt_text](../images/install_fig01.png)
 
 ##### Warnings are OK.
 
@@ -88,7 +88,7 @@ In Chrome, go to [this link](https://chrome.google.com/webstore/detail/metamask/
 
 Go through installation, then select Ropsten network. We will be only testing.
 
-![alt_text](fig04.png)
+![alt_text](../images/install_fig04.png)
 
 ### STEP 10: Get some `ether`
 
