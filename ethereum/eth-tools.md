@@ -10,7 +10,7 @@ Lab Goals:
  
 Each student is provided their individual server and credentials
 
-(Instructor: use our ubuntu AMI, t2.large or t2.xlarge instances and Elasticsearch security group)
+(Instructor: use our ubuntu AMI, t2.large or t2.xlarge instances and Blockchain security group)
     
 Labs are only verified for Ubuntu, 64 bit, v. 16+
  
@@ -147,7 +147,7 @@ Verify the balance on your account
     
 ### STEP 14: Manage your first account with `geth` in developer mode 
 
-(This assumes that your geth dev network is running, and in STEP 4, perhaps in another terminal)
+(This assumes that your geth dev network is running, as in STEP 4, perhaps in another terminal)
 
 In the new terminal, enter
 
@@ -157,11 +157,11 @@ Inside the `geth` shell, enter
 
     personal.newAccount()
     
-When asked for a passphrase, for this lab we will use '`1`' six time
+When asked for a passphrase, for this lab we will use '1' six time
 
     111111                  
     
-You will be displayed your account. The output will look like this
+You will see your new account. The output will look like this
 
     > personal.newAccount()
     Passphrase:
@@ -180,7 +180,7 @@ Now start mining
     
 Give it a few seconds. You will see the activity in the geth network in another terminal.
 
-Now check the account balance again
+Then check the account balance again
 
     eth.getBalance('0x6a6d50c1e623e4d9b35f7ed300a77ad34534bcf4');
     
