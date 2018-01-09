@@ -236,9 +236,40 @@ Check the balance for the newly created account, like this
 Check the balance on the second account, that one to which you transfered 3 ethers. 
 There should be an additional 3 000 000 000 000 000 000 wei on the address, or  3 ether. 
 
-### STEP 17 - BONUS
+# BONUS (OPTIONAL) STEPS
 
-Practice transfers of ether using Metamask, geth, and Infura. 
+### STEP 17 
+
+Practice transfers of ether using Metamask, geth, and Infura.
+
+### STEP 18: Account balance query
+
+How do you get the amount of ether on the address 
+`0x326946C0402000cc70fcB5823B0d3B9472cC371e` in Ropsten network, using geth.
+
+(Try to solve this yourself first)
+
+Solution
+
+Solution:
+Open the terminal clicking keyboard shortcut   Ctrl-Alt-T.
+Run the commands:
+
+    node 
+    var Web3 = require('web3')
+    var web3 = new Web3(new  Web3.providers.HttpProvider("https://ropsten.infura.io/Your_Access_Token"));
+    web3.eth.getBalance('0x326946C0402000cc70fcB5823B0d3B9472cC371e')
+    
+Answer: 
+
+1.994555733 Ether
+
+![alt_text](../images/eth_fig07.png)
+
+    
+
+
+ 
 
 
 
