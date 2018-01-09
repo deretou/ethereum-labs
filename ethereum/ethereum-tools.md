@@ -238,9 +238,11 @@ There should be an additional 3 000 000 000 000 000 000 wei on the address, or  
 
 # BONUS (OPTIONAL) STEPS
 
-### STEP 17 
+### STEP 17: Practice transfers of ether using Metamask, geth, and Infura.
 
-Practice transfers of ether using Metamask, geth, and Infura.
+* Feel free to experiment
+* Or, do the steps below, which give you the detailed instructions, and then go back to this step and 
+experiment some more.
 
 ### STEP 18: Account balance query
 
