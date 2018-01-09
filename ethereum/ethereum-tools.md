@@ -247,9 +247,7 @@ Practice transfers of ether using Metamask, geth, and Infura.
 How do you get the amount of ether on the address 
 `0x326946C0402000cc70fcB5823B0d3B9472cC371e` in Ropsten network, using geth.
 
-(Try to solve this yourself first)
-
-Solution
+(Try solving this yourself first)
 
 Solution:
 Open the terminal clicking keyboard shortcut   Ctrl-Alt-T.
@@ -266,13 +264,90 @@ Answer:
 
 ![alt_text](../images/eth_fig07.png)
 
-    
+### STEP 19: Account creation
+
+How to create a new address in developer mode and then transfer 0.5 ether on it, using Metamask?
+
+(Try solving this yourself first)
+
+**Solution:**
+
+* Create new address:
+
+* Click Metamask icon. In the window click  menu in the form of a silhouette of a person in a circle. In the new menu select  “Create Account”;
 
 
+* Click three black dots near a word Account1, and select a menu “Copy Address to clipboard”. Save the address.
+
+
+* Select the first account in  Metamask and click the button Send:
+
+* Type in  the field  Recipient Address the address you saved on previous step.
+* Type 0.5 in the field Amount and then click the button  Submit.
+
+* Wait for about half a minute to complete the  transaction.
+
+* Check the balance of your new account in metamask. It should be 0.5 ether:
+![alt_text](../images/eth-fig08.png)
+
+### STEP 20: Troubleshooting
+
+Run `geth`  with the following parameters:
+
+    geth --dev --rpcapi="db,eth,net,web3,personal,debug,miner" --rpccorsdomain "*"
+
+Now, connect to the geth in separate terminal tab:
+
+    geth attach rpc:http://localhost:8545
+
+You will see an error message:
+
+Fatal: Failed to start the JavaScript console
+
+What is the reason for this error?
+
+(Try solving this yourself first)
+
+**Solution:**
+
+Answer:
+Every parameter after the command 'geth' is important (duh!).  This time one parameter is missing:
+`--rpc`
+
+So HTTP-RPC server is disabled and you cannot start  console to control 'geth'.    
+
+### STEP 21: Get some more Ether for the address you created the step 19 above, and check the balance.
  
+(Hint) This should be done free of charge and not using transfers from your other addresses. 
+Check the balance of the address with Metamask.
+
+(Try solving this yourself first)
+
+**Solution:**
+
+In Metamask, Select Ropsten Test Network.
+
+* Select the account you create above.
+* Click the button BUY
+* Now click the button  ROPSTEN TEST FAUCET:
+* Wait a minute and you will see the Ropsten provided  you with additional 1 ether on your balance.
+* The balance should be equal to you balance plus 1 Ether.
+
+Bingo!
+![alt_text](../images/eth-fig09.png)
+
+### STEP 22. Balance checking with Infura
 
 
+(Try solving this yourself first)
 
+**Solution:**
+
+Connect to Infura as described above
+
+Here is my solution, and you can do the same
+
+![alt_text](../images/eth-fig10.png)
 
 
 
