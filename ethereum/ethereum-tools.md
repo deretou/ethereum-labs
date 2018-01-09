@@ -13,6 +13,9 @@ Each student is provided their individual server and credentials
 (Instructor: use our ubuntu AMI, t2.large or t2.xlarge instances and Blockchain security group)
     
 Labs are only verified for Ubuntu, 64 bit, v. 16+
+
+Suggestion: create a notes text file on your Ubuntu Desktop, and put your lab credentials there. 
+It will be convenient to have handy, that both in the VNC and on the SSH login.
  
 ### STEP 2: Install ethereum (geth)
  
@@ -122,10 +125,8 @@ We are going to use the Etherscan service for this
 
 ### STEP 13: Infura Registation 
 
-- Perform Infura registration. (It may be useful in your work, so save the credentials.)
-
-Once you register, you will get an email with all the needed tokens. Keep them as well.
-(I am using KeePass for such things.)
+- Perform Infura registration. 
+- Once you register, you will get an email with links, but all you need is your token. Save it for future reference.
 
 Email example
 
