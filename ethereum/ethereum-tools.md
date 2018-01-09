@@ -315,7 +315,7 @@ What is the reason for this error?
 **Solution:**
 
 Answer:
-Every parameter after the command 'geth' is important (duh!).  This time one parameter is missing:
+Every parameter after the command 'geth' is important (duh!).  This time, one parameter is missing:
 `--rpc`
 
 So HTTP-RPC server is disabled and you cannot start  console to control 'geth'.    
@@ -340,8 +340,7 @@ In Metamask, Select Ropsten Test Network.
 Bingo!
 ![alt_text](../images/eth-fig09.png)
 
-### STEP 22. Balance checking with Infura
-
+### STEP 22: Balance checking with Infura
 
 (Try solving this yourself first)
 
