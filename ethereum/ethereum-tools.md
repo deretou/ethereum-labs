@@ -318,7 +318,7 @@ Every parameter after the command 'geth' is important (duh!).  This time one pa
 
 So HTTP-RPC server is disabled and you cannot start  console to control 'geth'.    
 
-### STEP 21: Get some more Ether for the address you created the step 19 above, and check the balance.
+### STEP 21: Get some more Ether for the address you just created and check the balance.
  
 (Hint) This should be done free of charge and not using transfers from your other addresses. 
 Check the balance of the address with Metamask.
