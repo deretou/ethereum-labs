@@ -13,6 +13,9 @@ Each student is provided their individual server and credentials
 (Instructor: use our ubuntu AMI, t2.large or t2.xlarge instances and Blockchain security group)
     
 Labs are only verified for Ubuntu, 64 bit, v. 16+
+
+Suggestion: create a notes text file on your Ubuntu Desktop, and put your lab credentials there. 
+It will be convenient to have handy, that both in the VNC and on the SSH login.
  
 ### STEP 2: Install ethereum (geth)
  
@@ -122,10 +125,8 @@ We are going to use the Etherscan service for this
 
 ### STEP 13: Infura Registation 
 
-- Perform Infura registration. (It may be useful in your work, so save the credentials.)
-
-Once you register, you will get an email with all the needed tokens. Keep them as well.
-(I am using KeePass for such things.)
+- Perform Infura registration. 
+- Once you register, you will get an email with links, but all you need is your token. Save it for future reference.
 
 Email example
 
@@ -238,9 +239,11 @@ There should be an additional 3 000 000 000 000 000 000 wei on the address, or  
 
 # BONUS (OPTIONAL) STEPS
 
-### STEP 17 
+### STEP 17: Practice transfers of ether using Metamask, geth, and Infura.
 
-Practice transfers of ether using Metamask, geth, and Infura.
+* Feel free to experiment
+* Or, do the steps below, which give you the detailed instructions, and then go back to this step and 
+experiment some more.
 
 ### STEP 18: Account balance query
 
@@ -248,8 +251,7 @@ How do you get the amount of ether on the address
 `0x326946C0402000cc70fcB5823B0d3B9472cC371e` in Ropsten network, using geth.
 This is a special account which we prepared for you lab.
 
-(Try to solve this yourself first)
-
+(Try solving this yourself first)
 
 **Solution:**
 
@@ -268,16 +270,89 @@ In a Terminal, run the commands:
 
 ### STEP 19: Account creation
 
-How to create new address in developer mode and then transfer 0.5 ether on it, using Metamask?
+How to create a new address in developer mode and then transfer 0.5 ether on it, using Metamask?
 
-    
+(Try solving this yourself first)
+
+**Solution:**
+
+* Create new address:
+
+* Click Metamask icon. In the window click  menu in the form of a silhouette of a person in a circle. In the new menu select  “Create Account”;
 
 
+* Click three black dots near a word Account1, and select a menu “Copy Address to clipboard”. Save the address.
+
+
+* Select the first account in  Metamask and click the button Send:
+
+* Type in  the field  Recipient Address the address you saved on previous step.
+* Type 0.5 in the field Amount and then click the button  Submit.
+
+* Wait for about half a minute to complete the  transaction.
+
+* Check the balance of your new account in metamask. It should be 0.5 ether:
+![alt_text](../images/eth-fig08.png)
+
+### STEP 20: Troubleshooting
+
+Run `geth`  with the following parameters:
+
+    geth --dev --rpcapi="db,eth,net,web3,personal,debug,miner" --rpccorsdomain "*"
+
+Now, connect to the geth in separate terminal tab:
+
+    geth attach rpc:http://localhost:8545
+
+You will see an error message:
+
+Fatal: Failed to start the JavaScript console
+
+What is the reason for this error?
+
+(Try solving this yourself first)
+
+**Solution:**
+
+Answer:
+Every parameter after the command 'geth' is important (duh!).  This time one parameter is missing:
+`--rpc`
+
+So HTTP-RPC server is disabled and you cannot start  console to control 'geth'.    
+
+### STEP 21: Get some more Ether for the address you just created and check the balance.
  
+(Hint) This should be done free of charge and not using transfers from your other addresses. 
+Check the balance of the address with Metamask.
+
+(Try solving this yourself first)
+
+**Solution:**
+
+In Metamask, Select Ropsten Test Network.
+
+* Select the account you create above.
+* Click the button BUY
+* Now click the button ROPSTEN TEST FAUCET
+* Wait a minute and you will see the Ropsten provided  you with additional 1 ether on your balance.
+* The balance should be equal to you balance plus 1 Ether.
+
+Bingo!
+![alt_text](../images/eth-fig09.png)
+
+### STEP 22. Balance checking with Infura
 
 
+(Try solving this yourself first)
+
+**Solution:**
+
+Connect to Infura as described above
+
+Here is my solution, and you can do the same
+
+![alt_text](../images/eth-fig10.png)
 
 
-
-
+### Congratulations! You are well familiar with `geth` tools
 
