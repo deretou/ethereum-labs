@@ -246,25 +246,29 @@ Practice transfers of ether using Metamask, geth, and Infura.
 
 How do you get the amount of ether on the address 
 `0x326946C0402000cc70fcB5823B0d3B9472cC371e` in Ropsten network, using geth.
+This is a special account which we prepared for you lab.
 
 (Try to solve this yourself first)
 
-Solution
 
-Solution:
-Open the terminal clicking keyboard shortcut   Ctrl-Alt-T.
-Run the commands:
+**Solution:**
+
+In a Terminal, run the commands:
 
     node 
     var Web3 = require('web3')
     var web3 = new Web3(new  Web3.providers.HttpProvider("https://ropsten.infura.io/Your_Access_Token"));
     web3.eth.getBalance('0x326946C0402000cc70fcB5823B0d3B9472cC371e')
     
-Answer: 
+**Answer:**   
 
 1.994555733 Ether
 
 ![alt_text](../images/eth_fig07.png)
+
+### STEP 19: Account creation
+
+How to create new address in developer mode and then transfer 0.5 ether on it, using Metamask?
 
     
 
