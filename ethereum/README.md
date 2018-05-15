@@ -1,10 +1,12 @@
 # Ethereum for Developers
 
+[<< back to main index](../README.md)
+
 These are labs for the Ethereum for Developers Course
 
 1. [Remix](./01-overview/)
 
-* Lab 1.1 : [Remix Intro](./01-overview/01-overview/1.1-remix-intro.md
+* Lab 1.1 : [Remix Intro](./01-overview/01-overview/1.1-remix-intro.md)
 * Lab 1.2 : [Remix Install](./01-overview/1.2-remix-install.md)
 
 2. [Smart Contracts: Web.Js](./02-scontracts-web3js/)

@@ -1,6 +1,8 @@
-# Section 01:
+# Section 01: Overview
 
-Lab 1.1 : [Remix Intro](./remix-intro.md)
-Lab 1.2 : [Remix INstall](./remix-install.md)
+[<< back to main index](../README.md)
+
+* Lab 1.1 : [Remix Intro](./1.1-remix-intro.md)
+* Lab 1.2 : [Remix Install]./(1.2-remix-install.md)
 
 
