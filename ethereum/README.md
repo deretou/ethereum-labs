@@ -20,6 +20,10 @@ These are labs for the Ethereum for Developers Course
 
 4. [Functions](./04-functions/)
 
+* Lab 4.1 : [Mappings](./04-functions/4.1-mappings.md)
+* Lab 4.2 : [Modifiers](./04-functions/4.2-modifiers.md)
+* Lab 4.3 : [Structs](./04-functions/4.3-structs.md)
+
 5. [Inheritance](./05-inheritance/)
 
 6. [Embark](./06-embark/)
