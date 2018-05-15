@@ -16,6 +16,8 @@ These are labs for the Ethereum for Developers Course
 
 3. [Events: Web.js](./03-events-webjs/)
 
+* Lab 3.1 : [Events](./03-events-webjs/3.1-events.md)
+
 4. [Functions](./04-functions/)
 
 5. [Inheritance](./05-inheritance/)
