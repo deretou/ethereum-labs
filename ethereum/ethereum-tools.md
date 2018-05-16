@@ -30,8 +30,42 @@ It will be convenient to have handy, that both in the VNC and on the SSH login.
     
 You should get an output like below
 
-![alt_text](../images/eth_fig02.png)
-    
+```console
+NAME:
+   geth - the go-ethereum command line interface
+
+   Copyright 2013-2018 The go-ethereum Authors
+
+USAGE:
+   geth [options] command [command options] [arguments...]
+
+VERSION:
+   1.8.8-stable-2688dab4
+
+COMMANDS:
+   account           Manage accounts
+   attach            Start an interactive JavaScript environment (connect to node)
+   bug               opens a window to report a bug on the geth repo
+   console           Start an interactive JavaScript environment
+   copydb            Create a local chain from a target chaindata folder
+   dump              Dump a specific block from storage
+   dumpconfig        Show configuration values
+   export            Export blockchain into file
+   export-preimages  Export the preimage database into an RLP stream
+   import            Import a blockchain file
+   import-preimages  Import the preimage database from an RLP stream
+   init              Bootstrap and initialize a new genesis block
+   js                Execute the specified JavaScript files
+   license           Display license information
+   makecache         Generate ethash verification cache (for testing)
+   makedag           Generate ethash mining DAG (for testing)
+   monitor           Monitor and visualize node metrics
+   removedb          Remove blockchain and state databases
+   version           Print version numbers
+   wallet            Manage Ethereum presale wallets
+   help, h           Shows a list of commands or help for one command
+```
+
 ### STEP 4: Start ethereum in the developer mode
 
     geth --rpc --dev --rpcapi="db,eth,net,web3,personal,debug,miner" --rpccorsdomain "*"
